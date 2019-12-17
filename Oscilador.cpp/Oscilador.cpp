@@ -6,7 +6,6 @@ using fptr = double (double);
 
 void oscilador (double w, double h, double y0, fptr ddx);
 double ddx(double x);
-const double M_PI = 3.14159265358979;
 const double w = M_PI;
 const double h = 0.001;
 double nt = 6.0/h;
